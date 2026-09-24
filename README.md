@@ -138,10 +138,10 @@ sudo apt install -y build-essential autoconf automake bison expect \
   libssl-dev libtool libz-dev telnet libgtest-dev libjemalloc-dev \
   pkg-config libffi-dev libdw-dev libbz2-dev
 ```
-> [!NOTE 1]
+> [!NOTE]
 > `flex` is only needed if you modify the LPC lexer (`src/compiler/internal/lexer.l`). Otherwise the build uses the pre-committed generated lexer.
 
-> [!NOTE 2]
+> [!NOTE]
 > This is also needed when starting from [Ubuntu 24.04 Minimal aarch64]:
 ```bash
 sudo apt update
@@ -151,6 +151,7 @@ sudo apt install -y git libicu-dev
 **2. Get the source:**
 ```bash
 git clone https://github.com/jraymond40/sicose
+cd sicose
 ```
 
 **3. Compile:**
