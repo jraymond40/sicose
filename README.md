@@ -138,7 +138,8 @@ sudo apt install -y build-essential autoconf automake bison expect \
   libssl-dev libtool libz-dev telnet libgtest-dev libjemalloc-dev \
   pkg-config libffi-dev libdw-dev libbz2-dev
 ```
-> [For Ubuntu 24.04 Minimal aarch64]
+> [!Note]
+> Also needed when starting from [Ubuntu 24.04 Minimal aarch64]:
 ```bash
 sudo apt update
 sudo apt install -y git
